@@ -1,10 +1,14 @@
-import React from 'react'
-import { Router } from 'react-router';
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+import './App.scss';
+import HomepageContainer from './HomepageContainer';
 
 const App = () => {
 	return (
-		<div>
-			<h1>Hello</h1>
+		<div className='flex-wrapper'>
+			<Switch>
+				<Route path={`${process.env.PUBLIC_URL}/`} component={HomepageContainer} />
+			</Switch>
 		</div>
 	)
 }
