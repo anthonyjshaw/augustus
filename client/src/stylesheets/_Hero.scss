@@ -1,0 +1,18 @@
+.hero {
+	display: flex;
+	align-items: center;
+	background-size: cover;
+
+}
+
+@media (max-width: 400px) {
+	.hero {
+		height: 200px;
+	}
+}
+
+@media (max-width: 1440px) {
+	.hero {
+		height: 400px;
+	}
+}

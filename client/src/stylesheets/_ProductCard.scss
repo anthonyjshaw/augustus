@@ -1,0 +1,17 @@
+.product-card {
+	img {
+		width: 160px;
+	}
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	transition: color 0.2s ease;
+}
+
+.product-card:hover {
+	color: red;
+}
+
+.product-card-link {
+	text-decoration: none;	
+}
